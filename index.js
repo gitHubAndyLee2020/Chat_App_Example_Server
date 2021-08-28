@@ -11,7 +11,7 @@ const app = express()
 const server = createServer(app)
 const io = new socketio.Server(server, {
   cors: {
-    origin: /http:\/\/localhost:3000/i,
+    origin: /https:\/\/chat-app-demo-techandy42.netlify.app/i,
   },
 })
 
